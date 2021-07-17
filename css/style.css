@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body#body{
+    font-family: 'Quicksand', sans-serif;
+}
+nav#navbar{
+    background-color: white;
+}
+nav#navbar, a.navbar-brand{
+    font-size: 23px;
+}
+a.dropdown-item{
+    font-size: 20px;
+}
+button.btn_masuk, button.btn_daftar{
+    margin: 6px;
+    border-radius: 5px;
+    height: 40px;
+}
+button.btn_masuk{
+    background-color: rgb(9, 255, 0);
+}
+button.btn_masuk:hover{
+    background-color: rgb(100, 255, 95);
+}
+button.btn_daftar{
+    background-color: rgb(0, 238, 255);
+}
+button.btn_daftar:hover{
+    background-color: rgb(87, 238, 255);
+}
+section#jumbotron{
+    height: 500px;
+    background-size: cover;
+    background-image: url('../img/GambarMemasak.jpg');
+}
+h1,p#FontJumbotron{
+    text-align: center;
+    color: white;   
+    top: 170px;
+    position: relative;
+}
