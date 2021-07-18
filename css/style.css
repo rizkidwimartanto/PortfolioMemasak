@@ -40,3 +40,13 @@ h1,p#FontJumbotron{
     top: 170px;
     position: relative;
 }
+footer{
+    background-color: #303036;
+}
+figure{
+    width: 350px;
+    height: 350px;
+}
+@media screen {
+    
+}
